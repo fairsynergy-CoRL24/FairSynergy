@@ -50,7 +50,8 @@ To see the experimental results in the ipynb files or to regenerate them, please
 ```
 
 ### Files and Directories
-
+<details>
+<summary>Click to expand</summary>
 
 EEN_boxplot_exp.ipynb: This Jupyter Notebook file contains experiments related to Efficient Evolutionary Neural Networks (EEN) boxplots.
 
@@ -83,5 +84,7 @@ environment.yml: This YAML file defines the project's environment specifications
 simulations.py: This Python script file contains code related to simulations.
 
 fs_plot_utils.py: This Python script file contains utility functions for plotting within the project.
+</details>
+
 
 

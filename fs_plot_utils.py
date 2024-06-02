@@ -389,6 +389,7 @@ def plot_paired_boxplot(
                 hue=hue,
                 ax=ax,
             )
+            
         else:
             sns.boxplot(
                 x=x_var,

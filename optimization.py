@@ -381,6 +381,7 @@ def calcDualForBenchmarks(E_bar, con):
     gamma_var = con['gamma_vec'] 
     return gamma_var/np.power(E_bar + con['E_init'], np.ones(np.shape(gamma_var)) - gamma_var)
 
+    
 
 # def calculateAcc1D(config, E_bar, num_robots=2): # TODO generalize it to multi dimensional case to be used
 #     # initializtion

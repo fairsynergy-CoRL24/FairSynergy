@@ -187,5 +187,6 @@ def boxplot_experiments(configs_file = "experimental_data/DL_configs.json", seed
     # Save results if isSaving flag is True       
     if isSaving:
         np.save("./experimental_data/DL_BoxPlot_Results.npy", np.array([results_rand, results_uni, results_fs]))
+        
     return results_fs, results_uni, results_rand
 
